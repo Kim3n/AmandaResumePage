@@ -1,0 +1,44 @@
+.academic-card {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: #f1f1f1;
+    border-radius: 12px;
+    margin: 10px;
+    width: 50%;
+}
+
+.degree{
+    font-family: montserrat, sans-serif;
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.school {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #000000;
+
+}
+
+.dates {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+
+
+@media (max-width: 1200px) {
+
+    .academic-card {
+        align-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px){
+    .academic-card {
+        width: 75%;
+    }
+}

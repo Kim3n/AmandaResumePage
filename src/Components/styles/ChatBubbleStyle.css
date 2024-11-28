@@ -1,0 +1,108 @@
+.chat-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+
+}
+
+.chat-bubble {
+    width: 64px;
+    height: 64px;
+    background-color: #636363;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.chat-bubble:hover {
+    background-color: #1f1f1f;
+}
+
+.chat-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    min-height: 400px;
+}
+
+.chat-form h3 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.chat-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+.chat-form input,
+.chat-form textarea {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 0.375rem;
+}
+
+
+
+.chat-form  button{
+    cursor: pointer;
+    width: 100%;
+    border: 2px solid  #636363;
+    border-radius: 10px;
+    background-color: #636363;
+    color:   #FFFFFF;
+    padding: 10px 40px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease ;
+}
+
+.chat-form  button:hover {
+    border: 2px solid  #1F1F1F;
+    background-color:   #1F1F1F;
+}
+
+.chat-form .thanks{
+    place-self: center;
+}
+
+.chat-form  h1, h2{
+
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+.chat-form h1{
+    font-size: 48px;
+}
+.chat-form h2{
+    font-size: 16px;
+}
+
+.powered{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    place-self: center;
+    margin:4px;
+
+}

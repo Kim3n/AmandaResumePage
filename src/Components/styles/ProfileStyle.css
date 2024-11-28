@@ -1,0 +1,76 @@
+.info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    width: 167px;
+    height: 174px;
+}
+
+.name{
+    text-align: center;
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: #1f1f1f;
+    margin: 0;
+}
+.job-title{
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #000000;
+    margin: 10px;
+}
+
+.job-intro{
+    width: 807px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 1.8em;
+    text-align: center;
+    color: #000000;
+}
+
+.buttons-row{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    gap: 20px;
+}
+
+.buttons{
+    border: 2px solid  #1F1F1F;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color:   #1F1F1F;
+    padding: 10px 40px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.buttons:hover {
+    background-color:   #1F1F1F;
+    color: #FFFFFF;
+}
+
+.buttons.active {
+    background-color:   #1F1F1F;
+    color: #FFFFFF;
+}
+@media (max-width: 1200px) {
+    .job-intro{
+        width: 75%;
+    }
+}
+
+@media (max-width: 768px){
+
+}

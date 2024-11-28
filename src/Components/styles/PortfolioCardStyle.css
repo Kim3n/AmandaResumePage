@@ -1,0 +1,38 @@
+
+
+.portfolio-card{
+    cursor: pointer;
+    height: 250px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-link{
+    text-decoration: none;
+}
+
+.portfolio-img{
+    margin-bottom: 1rem;
+}
+
+
+.portfolio-title{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: #1f1f1f;
+    margin: 0;
+}
+
+
+.portfolio-description {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #1f1f1f;
+    margin: 0;
+}

@@ -1,0 +1,157 @@
+.advanced-portfolio-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.advanced-portfolio-page-title{
+    text-align: center;
+    font-size: 36px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: #000;
+    margin:1rem 0 1rem ;
+}
+.advanced-portfolio-page-sub-title{
+    text-align: center;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: #000;
+    margin: 0 0 1rem;
+}
+.advanced-portfolio-page-small-title{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #000000;
+    margin: 0 0 1rem;
+}
+.advanced-portfolio-page-text
+{
+    text-align: center;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #000;
+}
+.image-description{
+    text-align: center;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #000;
+    font-weight: 300;
+    margin: 1rem 0 3rem;
+}
+
+.advanced-portfolio-page-section{
+    padding: 2rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.advanced-portfolio-page-section-gray{
+    background: #f1f1f1;
+}
+
+.advanced-portfolio-page-section-white{
+    background: #FFFFFF;
+}
+.advanced-portfolio-page-section-gray, .advanced-portfolio-page-section-white{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.multi-image-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.multi-image{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.single-image-container{
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.advanced-portfolio-page img {
+    max-width: 100%;
+    height: auto;
+}
+
+.advanced-portfolio-page-sidebyside{
+    display: grid;
+    grid-auto-columns: minmax(0, 1fr);
+    grid-auto-flow: column;
+    place-items: center;
+
+}
+
+.advanced-portfolio-page-leftside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.advanced-portfolio-page-rightside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons{
+    border: 2px solid  #1F1F1F;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color:   #1F1F1F;
+    padding: 10px 40px;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.buttons:hover {
+    background-color:   #1F1F1F;
+    color: #FFFFFF;
+}
+
+@media (max-width: 1200px) {
+    .advanced-portfolio-page-sidebyside{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .section{
+        width: 75%;
+    }
+}
+
+@media (max-width: 768px){
+    .section{
+        width: 90%;
+    }
+}

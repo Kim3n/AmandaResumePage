@@ -1,0 +1,92 @@
+.experience-card {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.left-column {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-column h3 {
+    width: 260px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    margin: 0;
+    color: #000000;
+}
+
+
+
+.company-name {
+    width: 260px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #000000;
+
+}
+
+.dates {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+.right-column {
+    width: 656px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-column p{
+    margin: 0;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+
+}
+
+.responsibilities {
+    line-height: 1.8em;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 1200px) {
+
+    .experience-card {
+        display: flex;
+        flex-direction: column;
+    }
+    .left-column {
+       align-content: center;
+        text-align: center;
+    }
+
+    .responsibilities {
+        align-content: center;
+        text-align: center;
+    }
+    .responsibilities li{
+        margin-bottom: 20px;
+        list-style-position: inside;
+    }
+    .section{
+        align-content: center;
+        text-align: center;
+    }
+
+}
+@media (max-width: 768px){
+    .right-column {
+        width: auto;
+
+    }
+}
