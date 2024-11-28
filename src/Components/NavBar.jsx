@@ -1,12 +1,13 @@
 import { NavLink } from "react-router-dom";
 import "./styles/NavBarStyle.css";
+import logo from "/src/imgs/logo.png";
 
 function NavBar() {
   return (
     <nav className="navbar">
       <div className="logo">
         <NavLink to="/">
-          <img src="/src/imgs/logo.png" alt="logo" />
+          <img src={logo} alt="logo" />
         </NavLink>
       </div>
       <div className="centered">

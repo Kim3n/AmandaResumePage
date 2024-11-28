@@ -1,6 +1,7 @@
 import "./styles/ProfileStyle.css";
 import PropTypes from "prop-types";
 import { useLocation, useNavigate } from "react-router-dom";
+import headshot from "/src/imgs/headshot.png";
 
 function Profile({ showIntro }) {
   const location = useLocation();
@@ -25,11 +26,7 @@ function Profile({ showIntro }) {
   return (
     <>
       <div className="info-container">
-        <img
-          className="image"
-          src="/src/imgs/headshot.png"
-          alt="headshot"
-        ></img>
+        <img className="image" src={headshot} alt="headshot"></img>
         <h1 className="name">Amanda Azevedo</h1>
         <h3 className="job-title">UX/UI Designer</h3>
         {showIntro && (
